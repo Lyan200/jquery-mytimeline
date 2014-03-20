@@ -1,0 +1,145 @@
+body{
+    margin:0;
+}
+
+.mytimeline{
+    background-color: rgba(0, 126, 255, 0.50);
+    margin: 0 auto;
+}
+.mytimeline .line{
+    background-color: rgb(28, 155, 243);
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border: 0px none rgb(204, 204, 204);
+    bottom: 0px;
+    color: rgb(204, 204, 204);
+    cursor: pointer;
+    display: block;
+    font-family: Verdana, '宋体', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 0px;
+    left: 1px;
+    line-height: 53px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+.mytimeline .mouse_cursor{
+    z-index: 10;
+    -webkit-box-shadow: rgb(140, 140, 140) 0px 0px 8px 0px;
+    background-color: #8c8c8c;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border: 1px solid rgb(51, 51, 51);
+    border-bottom-width: 0px;
+    bottom: 0px;
+    box-shadow: rgb(150, 150, 150) 0px 0px 8px 0px;
+    color: rgb(204, 204, 204);
+    cursor: pointer;
+    display: block;
+    font-family: Verdana, '宋体', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 100%;
+    left: 42px;
+    line-height: 53px;
+    position: absolute;
+    white-space: nowrap;
+    width: 40px;
+}
+.mytimeline .mouse_cursor_current{
+    z-index: 10;
+    -webkit-box-shadow: rgb(176, 176, 176) 0px 0px 8px 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border: 1px solid rgb(204, 204, 204);
+    border-bottom-width: 0px;
+    bottom: 0px;
+    box-shadow: rgb(176, 176, 176) 0px 0px 8px 0px;
+    color: rgb(204, 204, 204);
+    cursor: pointer;
+    display: block;
+    font-family: Verdana, '宋体', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 100%;
+    left: 42px;
+    line-height: 53px;
+    position: absolute;
+    white-space: nowrap;
+    width: 40px;
+}
+
+.mytimeline .wrapper{
+    background-color: #c4c08a;
+    font-family: Verdana, '宋体', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.mytimeline .wrapper .top{
+    background-color: #fff;
+    color: #000;
+}
+
+.mytimeline .wrapper .top a,a:active,a:focus,a:visited{
+    color: #1c9bf3;
+}
+
+.mytimeline .wrapper .middle{
+    background-color: #fff
+}
+.mytimeline .wrapper .middle .mainleft{
+    display: inline-block;
+    cursor: pointer;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    color: #000;
+}
+.mytimeline .wrapper .middle .maincenter{
+    background-color: #fff;
+    display: inline-block;
+    height: 100%
+}
+.mytimeline .wrapper .middle .maincenter .timeline_container{
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: Verdana, '宋体', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height:100%;
+    line-height: 53px;
+    overflow-x: visible;
+    overflow-y: visible;
+    position: relative;
+    vertical-align: bottom;
+    white-space: nowrap;
+    background-color:#fff;
+    border-bottom: solid #ccc 1px;
+    width:100%;
+}
+
+.mytimeline .wrapper .middle .mainright{
+    display: inline-block;
+    cursor: pointer;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    color:#000;
+}
+
+.mytimeline .wrapper .bottom{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
